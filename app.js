@@ -2,7 +2,7 @@ const express = require('express'); // 引入 Express
 const app = express(); // 建立 Express 應用程式
 const port = 3000; // 設定伺服器監聽的埠號
 
-// 允許 Express 處理 JSON 請求
+// 允許 Express 處理 JSON
 app.use(express.json());
 
 // 根路由
